@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(13, 26, 45);
+    display: grid;
+    justify-content: center;
+}
+article{
+    background-color: rgb(21,39,63);
+    margin-top: 20%;
+    border-radius: 10px;
+}
+#measure{
+    color: rgb(107,233,227);
+}
+em{
+    color: white;
+}
+article{
+    max-width: 300px;
+    padding: 6%;
+}
+h1{
+    color: white;
+}
+p{
+    color: rgb(79,100,128);
+}
+hr{
+    font-weight: lighter;
+}
+#description{
+    max-width: 250px;
+}
+#image1{
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.main__measure p{
+    margin-left: 39%;
+}
+hr{
+    color: blue;
+}
+#small{
+    width: 30px;
+    height: 30px;
+    border: solid 0.5px white;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-right: 6%;
+}
+.last{
+    display: flex;
+}

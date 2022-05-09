@@ -13,10 +13,12 @@ article{
 }
 em{
     color: white;
+    font-family: 'Roboto Flex', sans-serif;
 }
 article{
     max-width: 300px;
     padding: 6%;
+    box-shadow: 0px 0px 10px rgb(2, 26, 58);
 }
 h1{
     color: white;
@@ -49,6 +51,13 @@ hr{
     margin-top: 3%;
     margin-right: 6%;
 }
-.last{
+.last_content{
     display: flex;
+}
+.last::before{
+    content: '';
+    background-color: rgb(38, 73, 97);
+    display: block;
+    width: 260px;
+    height: 0.5px;
 }
